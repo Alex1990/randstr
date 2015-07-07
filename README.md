@@ -1,12 +1,10 @@
-randstr
-=======
+# randstr
 
 A simple function can be used to generate a random string with the specified length. And, the range of the characters is configurable.
 
 **Note:** `Math.random()` is used to generate random numbers in this module. But, it does not provide [cryptographically secure random numbers](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator). Do not use them for anything related to security. You can use the `crypto.randomBytes()` in Node.js or `window.crypto.getRandomValues()` in browser.
 
-Installation
--------
+## Installation
 
 To install randstr, use [npm](http://github.com/isaacs/npm)
 
@@ -20,8 +18,7 @@ For browsers, use [bower](http://bower.io)
 $ bower install randstr
 ```
 
-Usage
------
+## Usage
 
 For node.js:
 
@@ -61,6 +58,6 @@ randstr();
 </script>
 ```
 
-LICENSE
--------
+## LICENSE
+
 Under the MIT license.
